@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Project_TD_TestV2/Content/StarterContent/Materials/M_AssetPlatform.uasset",
+				"D:/Project_TD_TestV2/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Project_TD_TestV2/Content/ThirdPerson/Blueprints/ActionRPGController.uasset",
+				"D:/Project_TD_TestV2/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"D:/Project_TD_TestV2/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/Project_TD_TestV2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/1C/GVQI65JIAU6A6YC2TEA3UJ.uasset",
+				"D:/Project_TD_TestV2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/DL/6UWESJQR0L0ZPYHS2L1IBX.uasset",
+				"D:/Project_TD_TestV2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/0U/XZH3LI1AXLGBJTHWUAABEZ.uasset",
+				"D:/Project_TD_TestV2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/H9/YHN1WEY60BUO64LPJOLUNZ.uasset",
+				"D:/Project_TD_TestV2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5C/5YGQC1GWVGONZA392A4FZL.uasset",
+				"D:/Project_TD_TestV2/Content/ThirdPerson/Input/Actions/IA_Click.uasset"
+			]
+		}
+	]
+}
