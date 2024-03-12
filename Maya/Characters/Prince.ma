@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Prince.ma
-//Last modified: Thu, Mar 07, 2024 09:41:13 PM
+//Last modified: Thu, Mar 07, 2024 09:43:29 PM
 //Codeset: 874
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.2.1.1";
@@ -10,20 +10,20 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202211021031-847a9f9623";
 fileInfo "osv" "Windows 11 Home Single Language v2009 (Build: 22621)";
-fileInfo "UUID" "AD9C9815-4113-A676-1923-A781EDF9E611";
+fileInfo "UUID" "941A62F6-43DA-A370-6257-DAB0FD36ADD1";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "0101B659-429B-3185-1199-DD8C9366E615";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -10.534267499966129 25.865447239571623 33.229574525732403 ;
-	setAttr ".r" -type "double3" 687.86164720343845 4303.7999999998492 8.2801613946463363e-16 ;
+	setAttr ".t" -type "double3" -11.621619075980687 14.179742890290251 38.282772539937469 ;
+	setAttr ".r" -type "double3" 710.66164720288646 4303.3999999999569 -2.074298079667607e-16 ;
 	setAttr ".rp" -type "double3" 2.2204460492503131e-16 0 0 ;
 	setAttr ".rpt" -type "double3" -6.4094774159255565e-18 9.6296497219361793e-32 5.2965067359960458e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6E5206A2-49B7-1D2B-4159-F4A65A3AA340";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 40.799432076468136;
+	setAttr ".coi" 40.799432076466459;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -5940,7 +5940,7 @@ createNode skinCluster -n "skinCluster2";
 	setAttr ".mi" 1;
 	setAttr ".ucm" yes;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "642BD3B2-4080-E319-29B1-D4B5C5530892";
+	rename -uid "18756D56-4086-B472-60AA-E6B6F026EAD1";
 	setAttr -s 2 ".tgi";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -1829.2123815260845 -866.66663222842874 ;
