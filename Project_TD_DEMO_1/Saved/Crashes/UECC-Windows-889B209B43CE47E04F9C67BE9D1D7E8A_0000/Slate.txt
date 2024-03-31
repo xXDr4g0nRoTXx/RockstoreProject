@@ -1,0 +1,3 @@
+Thread: Game
+Context:'Prepass' Type:'SWindow' Tag:'None' Location:'D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp_595'
+Context:'Prepass' Type:'STextBlock' Tag:'None' Location:'D:\build\++UE5\Sync\Engine\Source\Runtime\UMG\Private\Components\TextBlock.cpp_274'
