@@ -133,6 +133,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "618E443462B5658C6757653C659E49F1E3338B26",
+			"Assets": [
+				"/Game/Material/TestPostProcessDetectEdges"
+			]
+		},
+		{
 			"ShaderMapHash": "295E27370D68D6F64A9BFEC63B855D2678657E1D",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Default_Mask"

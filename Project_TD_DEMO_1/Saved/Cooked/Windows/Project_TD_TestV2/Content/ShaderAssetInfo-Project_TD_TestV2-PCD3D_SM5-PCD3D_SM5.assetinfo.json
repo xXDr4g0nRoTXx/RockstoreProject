@@ -346,6 +346,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A5038A9223B574B26C9DD142927BBB6731686C0E",
+			"Assets": [
+				"/Game/Material/TestPostProcessDetectEdges"
+			]
+		},
+		{
 			"ShaderMapHash": "9A805098C42C67B3FA48E9A48F53CADC3E7E5366",
 			"Assets": [
 				"/Interchange/gltf/MaterialInstances/MI_Sheen_Opaque_DS"
