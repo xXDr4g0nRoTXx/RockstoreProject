@@ -2,7 +2,7 @@
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,ChunkId=-1,bApplyRecursively=True,CookRule=Unknown))
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu.MainMenu
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Cutscene.Cutscene
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
@@ -54,6 +54,7 @@ Editor:UserDefinedStructure:bUseUserDefinedStructure:0=true
 Editor:CustomBlueprintFunctionLibrary:bCanCreateNew:0=true
 Editor:StructSerialization:SkipByteCodeSerialization:0=true
 Editor:StructSerialization:BreakSerializationRecursion:0=true
+Editor:ScriptErrorLog:MaxNumOfAccessViolation:0=16
 Editor:CookSettings:SkipOnlyEditorOnly:0=false
 Editor:CookSettings:BulkDataRegistryEnabled:0=true
 Editor:CookSettings:PackagesPerGC:0=0
@@ -151,7 +152,7 @@ Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type=
 Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
-Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu.MainMenu
+Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/Cutscene.Cutscene
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
 Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
@@ -435,7 +436,6 @@ Engine:DevOptions.Shaders:bLogJobCompletionTimes:0=False
 Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 Engine:DevOptions.Shaders:BuildWorkerTimeToLive:0=1200
-Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 Engine:DevOptions.Shaders:bForceUseSCWMemoryPressureLimits:0=False
 Engine:LogFiles:PurgeLogsDays:0=5
 Engine:LogFiles:MaxLogFilesOnDisk:0=10
@@ -454,7 +454,6 @@ Engine:Kismet:bExecutionAfterReturn:0=false
 Engine:Kismet:bCanSuppressAccessViolation:0=false
 Engine:Kismet:bIgnoreCompileOnLoadErrorsOnBuildMachine:0=false
 Engine:Kismet:bAllowNativeComponentClassOverrides:0=true
-Engine:Kismet:bUseLegacyAnimBlueprintThreadSafetyChecks:0=true
 Engine:/Script/Engine.Blueprint:bRecompileOnLoad:0=true
 Engine:/Script/Engine.LevelScriptBlueprint:bRecompileOnLoad:0=true
 Engine:/Script/Engine.AnimBlueprint:bRecompileOnLoad:0=true
